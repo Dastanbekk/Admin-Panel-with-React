@@ -65,7 +65,7 @@ export const Main = () => {
          <div className='px-[30px] w-full bg-white items-center flex border-b-2 border-gray-300 gap-[15px] py-[10px]'>
             <div className='border-r-2 border-gray-300'>
                 <div className='max-w-[200px] flex items-center gap-[10px] '>
-                    <button onClick={()=>addList()} className='p-4 text-[24px] text-white rounded-[100%] bg-green-400 cursor-pointer'>+</button>
+                    <button onClick={()=>addList()} className='w-[40px] h-[40px] flex justify-center items-center text-[24px] text-white rounded-[100%] bg-green-400 cursor-pointer'>+</button>
                     <p>Yangi kategoriya qo'shish</p>
                 </div>
             </div>
